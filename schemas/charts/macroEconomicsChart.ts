@@ -6,6 +6,12 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'title',
+      title: "title for the section",
+      type: 'string',
+      description: "Set macro economics title"
+    }, 
+    {
       name: 'smooth',
       title: 'Smooth Tension',
       type: 'boolean',
