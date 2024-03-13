@@ -11,7 +11,7 @@ import marketArticle from '../schemas/articles/marketArticle'
 import marketInsightAds from '../schemas/articles/marketInsightAds'
 import nseAsiChart from '../schemas/charts/nseAsiChart'
 import onboardMarketInsightBlog from '../schemas/articles/onboardMarketInsightBlog'
-import outlook from '../schemas/reports/outlook'
+import outlook from '../schemas/outlooks/outlook'
 import agroReport from '../schemas/reports/agroReport'
 import bankingReport from '../schemas/reports/bankingReport'
 import breweryReport from '../schemas/reports/breweryReport'
@@ -23,7 +23,11 @@ import brewiesInitialImpression from '../schemas/reports/brewiesInitialImpressio
 import consumerGoodInitialImpression from '../schemas/reports/consumerGoodInitialImpression'
 import IndustryInitialImpression from '../schemas/reports/IndustryInitialImpression'
 import OilAndGasInitialImpression from '../schemas/reports/OilAndGasInitialImpression'
-import EquityOutlook from '../schemas/reports/EquityOutlook'
+import EquityOutlook from '../schemas/outlooks/equityOutlook'
+import bondYield from '../schemas/charts/bondYield'
+import tBills from '../schemas/charts/tBills'
+import fixedIncomeOutlook from '../schemas/outlooks/fixedIncomeOutlook'
+import foreignExchangeOutlook from '../schemas/outlooks/foreignExchangeOutlook'
 
 export const schemaTypes = [
   homeBanner,
@@ -51,5 +55,9 @@ export const schemaTypes = [
   consumerGoodInitialImpression,
   IndustryInitialImpression,
   OilAndGasInitialImpression,
-  EquityOutlook
+  EquityOutlook,
+  bondYield,
+  tBills,
+  fixedIncomeOutlook,
+  foreignExchangeOutlook
 ]
