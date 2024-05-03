@@ -13,6 +13,17 @@ export default {
       validation: (Rule: any) => Rule.min(20).error('Title must be at least 30 characters long.'),
     },
     {
+      name: "marketType",
+      title: "Market Type",
+      type: "string",
+      description: "The market type value"
+    },
+    {
+      name: 'tagColor',
+      title: 'Market Tag Color',
+      type: 'color',
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
@@ -26,14 +37,6 @@ export default {
       options: {
         hotspot: true,
       },
-      fields: [
-        {
-          name: 'cloudinaryUrl',
-          title: 'Cloudinary URL',
-          type: 'url',
-          description: 'URL of the image hosted on Cloudinary',
-        },
-      ],
     },
     {
       name: 'content',
@@ -55,7 +58,16 @@ export default {
             { title: 'Bullet', value: 'bullet' },
             { title: 'Number', value: 'number' },
           ],
-        },
+          marks: {
+            decorators: [
+              { title: 'Strong', value: 'strong' },
+              { title: 'Emphasis', value: 'em' },
+              { title: 'Underline', value: 'underline' },
+              { title: 'Strike', value: 'strike-through' },
+              { title: 'Code', value: 'code' },
+            ]
+          }
+        },        
         {
           type: 'image',
           fields: [
@@ -64,6 +76,7 @@ export default {
           ],
           options: { hotspot: true },
         },
+       
       ],
       description: 'The content of the market insight blog post',
     },
