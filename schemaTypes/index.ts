@@ -8,7 +8,6 @@ import inflationChart from '../schemas/charts/inflationChart'
 import inflationReport from '../schemas/reports/inflationReport'
 import macroEconomicsChart from '../schemas/charts/macroEconomicsChart'
 import marketArticle from '../schemas/articles/marketArticle'
-import marketInsightAds from '../schemas/articles/marketInsightAds'
 import nseAsiChart from '../schemas/charts/nseAsiChart'
 import onboardMarketInsightBlog from '../schemas/articles/onboardMarketInsightBlog'
 import outlook from '../schemas/outlooks/outlook'
@@ -28,11 +27,14 @@ import bondYield from '../schemas/charts/bondYield'
 import tBills from '../schemas/charts/tBills'
 import fixedIncomeOutlook from '../schemas/outlooks/fixedIncomeOutlook'
 import foreignExchangeOutlook from '../schemas/outlooks/foreignExchangeOutlook'
+import interBankRate from '../schemas/charts/interBankRate'
+import parallelMarketRate from '../schemas/charts/parallelMarketRate'
+import iefx from '../schemas/charts/iefx'
+import podcast from '../schemas/podcast/podcast'
 
 export const schemaTypes = [
   homeBanner,
   onboardMarketInsightBlog,
-  marketInsightAds,
   marketArticle,
   footer,
   macroEconomicsChart,
@@ -59,5 +61,9 @@ export const schemaTypes = [
   bondYield,
   tBills,
   fixedIncomeOutlook,
-  foreignExchangeOutlook
+  foreignExchangeOutlook,
+  interBankRate,
+  parallelMarketRate,
+  iefx,
+  podcast
 ]
