@@ -50,6 +50,12 @@ export default {
         hotspot: true,
       },
     },
+     {
+      name: "author",
+      title: "Author",
+      type: "string",
+      description: "The name of the author"
+    },
     {
       name: 'content',
       title: 'Content',
