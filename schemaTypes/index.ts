@@ -31,6 +31,11 @@ import interBankRate from '../schemas/charts/interBankRate'
 import parallelMarketRate from '../schemas/charts/parallelMarketRate'
 import iefx from '../schemas/charts/iefx'
 import podcast from '../schemas/podcast/podcast'
+import insightReport from '../schemas/reports/insightReport'
+import priceListReport from '../schemas/reports/priceListReport'
+import dailyMarketReport from '../schemas/reports/dailyMarketReport'
+import weeklyMarketReport from '../schemas/reports/weeklyMarketReport'
+import monthlyMarketReport from '../schemas/reports/monthlyMarketReport'
 
 export const schemaTypes = [
   homeBanner,
@@ -65,5 +70,10 @@ export const schemaTypes = [
   interBankRate,
   parallelMarketRate,
   iefx,
-  podcast
+  podcast,
+  insightReport,
+  priceListReport,
+  dailyMarketReport,
+  weeklyMarketReport,
+  monthlyMarketReport
 ]

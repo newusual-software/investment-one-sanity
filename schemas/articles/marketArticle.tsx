@@ -104,8 +104,8 @@ export default {
         {
           type: 'image',
           fields: [
-            { name: 'caption', title: 'Caption', type: 'string', options: { isHighlighted: true } },
-            { name: 'alt', title: 'Alternative text', type: 'string', options: { isHighlighted: true } },
+            { name: 'caption', title: 'Caption', type: 'string' },
+            { name: 'alt', title: 'Alternative text', type: 'string' },
           ],
           options: { hotspot: true },
         },
