@@ -21,7 +21,6 @@ import bankingInitialImpression from '../schemas/reports/bankingInitialImpressio
 import brewiesInitialImpression from '../schemas/reports/brewiesInitialImpression'
 import consumerGoodInitialImpression from '../schemas/reports/consumerGoodInitialImpression'
 import IndustryInitialImpression from '../schemas/reports/IndustryInitialImpression'
-import OilAndGasInitialImpression from '../schemas/reports/OilAndGasInitialImpression'
 import EquityOutlook from '../schemas/outlooks/equityOutlook'
 import bondYield from '../schemas/charts/bondYield'
 import tBills from '../schemas/charts/tBills'
@@ -31,6 +30,22 @@ import interBankRate from '../schemas/charts/interBankRate'
 import parallelMarketRate from '../schemas/charts/parallelMarketRate'
 import iefx from '../schemas/charts/iefx'
 import podcast from '../schemas/podcast/podcast'
+import insightReport from '../schemas/reports/insightReport'
+import priceListReport from '../schemas/reports/priceListReport'
+import dailyMarketReport from '../schemas/reports/dailyMarketReport'
+import weeklyMarketReport from '../schemas/reports/weeklyMarketReport'
+import monthlyMarketReport from '../schemas/reports/monthlyMarketReport'
+import monetaryPolicy from '../schemas/reports/monetaryPolicy'
+import OilAndGasInitialImpression from '../schemas/reports/oilAndGasInitialImpression'
+import TaxReport from '../schemas/reports/TaxReport'
+import SectorReport from '../schemas/reports/SectorReport'
+import resultReport from '../schemas/reports/resultReport'
+import FDIInflowReport from '../schemas/reports/FDIInflowReport'
+import corporateActionReport from '../schemas/reports/corporateActionReport'
+import companyReport from '../schemas/reports/companyReport'
+import capitalImportationReport from '../schemas/reports/capitalImportationReport'
+import budgetReport from '../schemas/reports/budgetReport'
+import auctionReport from '../schemas/reports/auctionReport'
 
 export const schemaTypes = [
   homeBanner,
@@ -65,5 +80,20 @@ export const schemaTypes = [
   interBankRate,
   parallelMarketRate,
   iefx,
-  podcast
+  podcast,
+  insightReport,
+  priceListReport,
+  dailyMarketReport,
+  weeklyMarketReport,
+  monthlyMarketReport,
+  monetaryPolicy,
+  TaxReport,
+  SectorReport,
+  resultReport,
+  FDIInflowReport,
+  corporateActionReport,
+  companyReport,
+  capitalImportationReport,
+  budgetReport,
+  auctionReport
 ]
