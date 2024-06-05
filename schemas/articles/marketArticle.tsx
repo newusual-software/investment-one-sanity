@@ -1,4 +1,6 @@
 import {PlayIcon} from '@sanity/icons'
+import { marketTypes } from '../../data/marketType';
+
 // import { YouTubePreview } from '../utils/YouTubePreview';
 const HighlightIcon = () => (
   <span style={{ fontWeight: 'bold' }}>H</span>
@@ -27,13 +29,14 @@ export default {
       name: "marketType",
       title: "Market Type",
       type: "string",
-      description: "The market type value"
+      description: "The market type value",
+      options: {
+        list: [
+          ...marketTypes
+        ],
+      },
     },
-    {
-      name: 'tagColor',
-      title: 'Market Tag Color',
-      type: 'color',
-    },
+
     {
       name: 'description',
       title: 'Description',
