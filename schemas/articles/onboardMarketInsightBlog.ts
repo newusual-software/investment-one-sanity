@@ -67,5 +67,14 @@ export default {
       ],
       description: 'The content of the market insight blog post',
     },
+    {
+      name: 'file',
+      title: 'File',
+      type: 'file',
+      description: 'PDF file',
+      options: {
+        accept: 'application/pdf',
+      },
+    },
   ],
 };
