@@ -46,6 +46,7 @@ import companyReport from '../schemas/reports/companyReport'
 import capitalImportationReport from '../schemas/reports/capitalImportationReport'
 import budgetReport from '../schemas/reports/budgetReport'
 import auctionReport from '../schemas/reports/auctionReport'
+import stockRecommendation from '../schemas/common/stockRecommendation'
 
 export const schemaTypes = [
   homeBanner,
@@ -95,5 +96,6 @@ export const schemaTypes = [
   companyReport,
   capitalImportationReport,
   budgetReport,
-  auctionReport
+  auctionReport,
+  stockRecommendation
 ]

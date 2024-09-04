@@ -46,6 +46,11 @@ export default {
         type: 'string',
         description: 'Color for the button',
       },
+      {
+        name: 'videoUrl',
+        title: 'Video URL',
+        type: 'url',
+      },
     ],
   };
   
