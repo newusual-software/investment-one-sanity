@@ -47,6 +47,7 @@ import capitalImportationReport from '../schemas/reports/capitalImportationRepor
 import budgetReport from '../schemas/reports/budgetReport'
 import auctionReport from '../schemas/reports/auctionReport'
 import stockRecommendation from '../schemas/common/stockRecommendation'
+import movementInReserve from '../schemas/charts/movementInReserve'
 
 export const schemaTypes = [
   homeBanner,
@@ -81,6 +82,7 @@ export const schemaTypes = [
   interBankRate,
   parallelMarketRate,
   iefx,
+  movementInReserve,
   podcast,
   insightReport,
   priceListReport,
