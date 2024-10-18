@@ -48,6 +48,7 @@ import budgetReport from '../schemas/reports/budgetReport'
 import auctionReport from '../schemas/reports/auctionReport'
 import stockRecommendation from '../schemas/common/stockRecommendation'
 import movementInReserve from '../schemas/charts/movementInReserve'
+import marketArticleHighlight from '../schemas/articles/marketArticleHighlight'
 
 export const schemaTypes = [
   homeBanner,
@@ -99,5 +100,6 @@ export const schemaTypes = [
   capitalImportationReport,
   budgetReport,
   auctionReport,
-  stockRecommendation
+  stockRecommendation,
+  marketArticleHighlight
 ]
