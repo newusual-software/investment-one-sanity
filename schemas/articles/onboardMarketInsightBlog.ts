@@ -1,5 +1,4 @@
 // schema.js
-
 export default {
   name: 'marketInsightBlog',
   title: 'Market Insight Blog',
