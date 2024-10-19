@@ -4,4 +4,6 @@ export const marketTypes = [
   {title: 'Equity', value: 'Equity'},
   {title: 'Insights', value: 'Insights'},
   {title: 'Macro', value: 'Macro'},
+  {title: 'Market', value: 'Market'},
+  {title: 'Insights', value: 'Insights'},
 ]
