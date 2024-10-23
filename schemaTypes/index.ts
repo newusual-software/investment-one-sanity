@@ -9,7 +9,6 @@ import inflationReport from '../schemas/reports/inflationReport'
 import macroEconomicsChart from '../schemas/charts/macroEconomicsChart'
 import marketArticle from '../schemas/articles/marketArticle'
 import nseAsiChart from '../schemas/charts/nseAsiChart'
-import onboardMarketInsightBlog from '../schemas/articles/onboardMarketInsightBlog'
 import outlook from '../schemas/outlooks/outlook'
 import agroReport from '../schemas/reports/agroReport'
 import bankingReport from '../schemas/reports/bankingReport'
@@ -53,7 +52,6 @@ import announcement from '../schemas/articles/announcement'
 
 export const schemaTypes = [
   homeBanner,
-  onboardMarketInsightBlog,
   marketArticle,
   footer,
   macroEconomicsChart,
